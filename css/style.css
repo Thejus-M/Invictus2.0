@@ -1704,6 +1704,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .card-v14 {
   display: flex;
+  background: #9195a2;
   flex-direction: column;
   box-shadow: 0 0 0 1px hsla(230, 13%, 9%, 0.05),
               0 0.3px 0.4px hsla(230, 13%, 9%, 0.02),
