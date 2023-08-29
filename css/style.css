@@ -897,7 +897,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #venue {
   padding: 60px 0;
-  background: #d2d4da;
+  background: #060D1F;
 }
 
 #venue .container-fluid {
@@ -1024,7 +1024,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #gallery {
   padding: 60px;
-  background: #bebbc6;
+  background: #070916;
   overflow: hidden;
 }
 
@@ -1071,7 +1071,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #supporters {
   padding: 60px 0;
-  background: #d2d4da;
+  background: #060D1F;
 }
 
 #supporters .supporters-wrap {
@@ -1294,7 +1294,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact {
   padding: 60px 0;
-  background: #d2d4da;
+  background: #070916;
 }
 
 #contact .contact-info {
@@ -1692,7 +1692,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 #highlights {
   padding: 60px;
-  background: url(../img/highlight-bg.jpg) center center no-repeat;
+  background-color: #070916;
+  /* background: url(../img/highlight-bg.jpg) center center no-repeat; */
   background-size: cover;
   overflow: hidden;
   position: relative;
