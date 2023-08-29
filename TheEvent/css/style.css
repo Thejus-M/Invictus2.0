@@ -672,10 +672,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 60px 0 40px 0;
 }
 
-.about-the-event{
-  max-width: 400px; 
-  margin: 0 auto;
-}
 
 #about:before {
   content: "";
@@ -1688,4 +1684,103 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: uppercase;
   color: #c0b6b6;
   font-size: x-large;
+}
+
+
+/*--------------------------------------------------------------
+# Highlights Section
+--------------------------------------------------------------*/
+
+
+.highlights-big{
+  font-family: 'Space Mono', monospace;
+}
+
+.card-v14 {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 0 1px hsla(230, 13%, 9%, 0.05),
+              0 0.3px 0.4px hsla(230, 13%, 9%, 0.02),
+              0 0.9px 1.5px hsla(230, 13%, 9%, 0.045),
+              0 3.5px 6px hsla(230, 13%, 9%, 0.09);
+  border-radius: 0.375em;
+  padding: 1rem;
+
+  text-decoration: none;
+
+  transition: 0.3s;
+}
+
+.card-v14 > h2{
+  font-size: x-large;
+
+}
+
+.card-v14:hover {
+  font-size: xx-large;
+  box-shadow: 0 0 0 1px hsla(230, 13%, 9%, 0.05),
+              0 0.9px 1.25px hsla(230, 13%, 9%, 0.025),
+              0 3px 5px hsla(230, 13%, 9%, 0.05),
+              0 12px 20px hsla(230, 13%, 9%, 0.09);
+}
+
+.card-v14__icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: hsla(342, 89%, 48%, 0.2);
+}
+
+.card-v14__icon {
+  --size: 24px;
+  color: hsl(342, 89%, 48%);
+}
+
+.card-v14__description,
+.card-v14__link {
+  font-size: 0.9375rem;
+}
+
+.card-v14__description {
+  color: wheat;
+  line-height: 1.58;
+  margin: 0.75rem 0 1rem;
+}
+
+.card-v14__link {
+  text-align: right;
+  margin-top: auto;
+  color: wheat;
+}
+
+/* -------------------------------- 
+
+Demo stuff 
+
+-------------------------------- */
+
+.demo-card-v14-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.demo-card-v14-grid > * {
+  min-width: 0;
+}
+
+@media (min-width: 42.5rem) {
+  .demo-card-v14-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 85.5rem) {
+  .demo-card-v14-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
