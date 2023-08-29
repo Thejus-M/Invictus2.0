@@ -1706,10 +1706,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: flex;
   background: #9195a2;
   flex-direction: column;
-  box-shadow: 0 0 0 1px hsla(230, 13%, 9%, 0.05),
+
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
+  /* box-shadow: 0 0 0 1px hsla(230, 13%, 9%, 0.05),
               0 0.3px 0.4px hsla(230, 13%, 9%, 0.02),
               0 0.9px 1.5px hsla(230, 13%, 9%, 0.045),
-              0 3.5px 6px hsla(230, 13%, 9%, 0.09);
+              0 3.5px 6px hsla(230, 13%, 9%, 0.09); */
   border-radius: 0.375em;
   padding: 1rem;
 
