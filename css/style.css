@@ -30,11 +30,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
-  color: #0e1b4d;
+  color: #ffffff;
 }
 
 .main-page {
@@ -124,7 +123,7 @@ h6 {
   margin: 0;
   font-size: 18px;
   font-weight: 500;
-  color: #9195a2;
+  color: #ffffff;
 }
 
 .section-with-bg {
@@ -1025,6 +1024,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #gallery {
   padding: 60px;
   background: #070916;
+  color: white;
   overflow: hidden;
 }
 
@@ -1184,10 +1184,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 #subscribe p {
   color: #fff;
 }
-
 #subscribe input {
   background: #fff;
-  color: #060c22;
+  color: #f8f8f8;
   border: 0;
   outline: none;
   margin: 0;
@@ -1335,6 +1334,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .contact-phone,
 #contact .contact-email {
   margin-bottom: 20px;
+  color: white;
 }
 
 #contact .form #sendmessage {
@@ -1558,6 +1558,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   #contact .contact-phone,
   #contact .contact-email {
     padding: 20px 0;
+    color: white;
   }
 
   #contact .contact-phone {
